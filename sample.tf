@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "sample" {
-  name = "sample"
+  name = "demo-test"
   image_scanning_configuration {
     scan_on_push = true
   }
