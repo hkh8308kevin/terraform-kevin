@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "sample" {
-  name = "sample"
+  name = "dohun-ecr-repo2"
   image_scanning_configuration {
     scan_on_push = true
   }
