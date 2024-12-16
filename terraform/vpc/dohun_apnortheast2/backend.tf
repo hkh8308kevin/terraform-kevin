@@ -6,6 +6,6 @@ terraform {
     key            = "provisioning/terraform/vpc/dhham_apnortheast2/terraform.tfstate"
     region         = "ap-northeast-2"
     encrypt        = true
-    dynamodb_table = "terraform-lock"
+    dynamodb_table = "terraform-lock-table"
   }
 }
